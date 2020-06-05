@@ -26,7 +26,7 @@ main {
 }
 
 article {
-    background-color:  rgb(238, 248, 246); ;
+    background-color:  rgb(238, 248, 246);
     width: 30%;
     height: 300px;
     display: inline-block;
@@ -36,7 +36,7 @@ article {
     transition: box-shadow 0.5s, background 3s;
     transition-delay: 0.5s;
     vertical-align: middle;
-    text-align: justify;
+    text-align: center;
 }
 
 article:hover {
@@ -52,7 +52,24 @@ aside>img {
     border-radius: 10px;
 }
 
+.article-img {
+    height: auto;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 footer {
     text-align: center;
     bottom: 100%;
+    margin-top: 20px;
+}
+
+#introductie {
+    background-color:  rgb(238, 248, 246);
+    max-height: 200px;
+    overflow: scroll;
+    box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.7);
+    margin-top: 50px;
+    padding: 15px;
 }
