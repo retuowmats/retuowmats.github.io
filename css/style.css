@@ -20,7 +20,7 @@ header {
 }
 
 main {
-    width: 1100px;   
+    width: 1100px;
     margin: auto;
     margin-top: 20px;
 }
@@ -33,7 +33,7 @@ article {
     padding: 10px;
     margin: 5px;
     box-shadow: 2px 5px 10px rgba( 0, 0, 0, 0.3);
-    transition: box-shadow 0.5s, background 3s;
+    transition: box-shadow 0.5s, background 2s;
     transition-delay: 0.5s;
     vertical-align: middle;
     text-align: center;
@@ -44,7 +44,7 @@ article:hover {
     background: rgba(179, 172, 248, 0.438);
 }
 
-aside>img {
+aside > img {
     height: 100px;
     width: 320px;
     background-size: cover;
@@ -57,6 +57,7 @@ aside>img {
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
 }
 
 footer {
@@ -72,4 +73,17 @@ footer {
     box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.7);
     margin-top: 50px;
     padding: 15px;
+}
+/* Excuses voor de irritatiefactor bij het schalen van deze sectie */
+#introductie:hover {
+    max-height: 500px;
+}
+
+#introductie aside > img {
+    float: right;
+    height: 300px;
+}
+
+h3 {
+    color: red;
 }
